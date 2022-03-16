@@ -1,0 +1,18 @@
+.Pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+.Pokedex-title {
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+
+.Pokedex-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+    column-gap: 40px;
+    justify-items: space-around;
+}
